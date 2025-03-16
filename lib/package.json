@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "eslint": "^9.22.0"
+  },
+  "dependencies": {
+    "@stdlib/utils": "^0.3.3"
+  }
+}
