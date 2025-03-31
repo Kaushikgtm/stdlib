@@ -192,3 +192,6 @@ jsconfig.json
 # Cursor #
 ##########
 .cursorignore
+package.json
+etc/npm/deps.txt
+etc/npm/deps.txt
