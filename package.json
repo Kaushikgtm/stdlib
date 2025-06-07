@@ -27,7 +27,8 @@
   "directories": {
     "doc": "./docs",
     "example": "./examples",
-    "lib": "./lib"
+    "lib": "./lib",
+    "test": "./test"
   },
   "types": "./docs/types",
   "scripts": {
