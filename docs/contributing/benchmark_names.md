@@ -116,7 +116,7 @@ where `[...]` indicates that the corresponding benchmark name component is optio
 -   **method**: name of the method being measured (_optional_). A benchmark name **must** only specify a single method name. If included in a benchmark name, this component **must** be prefixed by a single colon `:`. This component is only relevant when measuring the performance of a method or property attached to a package's main export.
 -   **...param=value**: one or more parameter name-value pairs (_optional_). Each parameter name-value pair **must** be separated by a comma. If included in a benchmark name, this component **must** be prefixed by a single colon `:`. Parameter names **must** be unique. If you imagine a column chart, think of this component as a means of distinguishing columns, and, if you imagine a grouped column chart, think of this component as a means of distinguishing column groups.
 
-As the character sequences `:`, `::`, `,`, and `=` have special meaning in benchmark names, components **must not** include those character sequences, as they are explicitly reserved for delineating components and sub-components (i.e., facets and parameter-value pairs).
+As the character sequences `:`, `::`, `,`, and `=` have special meaning in benchmark names, components and sub-components (i.e., facets and parameter-value pairs) **must not** include those character sequences, as they are explicitly reserved for delineating content between and within components.
 
 We use the following as a canonical list of language names:
 
